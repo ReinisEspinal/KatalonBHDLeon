@@ -16,14 +16,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import logicaDeNegocio.PantallaDeHome
 
 WebUI.openBrowser('https://www.amazon.com/')
 
-WebUI.click(findTestObject('null'))
+PantallaDeHome.buscarProductoEnAmazon("Iphone 12");
 
-WebUI.setText(findTestObject('null'), 'cell')
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
+WebUI.delay(2);

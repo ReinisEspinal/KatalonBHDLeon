@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SeleccionarAmazon</name>
+   <name>SeleccionarProducto</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>436e72e1-f35f-40ff-867a-42fee8557a8f</testCaseGuid>
